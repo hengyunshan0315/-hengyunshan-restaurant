@@ -22,10 +22,33 @@
 
 
 .glass-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:16px}.glass-gallery img{display:block;width:100%;height:155px;object-fit:cover;border-radius:10px;border:1px solid rgba(38,60,45,.12)}@media(max-width:520px){.glass-gallery img{height:125px}}
+
+/* Temporary closure announcement */
+.closure-banner{background:#f8f5ed;border-bottom:1px solid #dfd4c0;padding:28px 20px;text-align:center}
+.closure-card{max-width:980px;margin:0 auto;border:1px solid #9a8b72;outline:1px solid #d8cdbb;outline-offset:4px;padding:22px 24px;color:#28251f;background:#fffdf8}
+.closure-label{font-family:var(--serif);font-size:clamp(21px,3vw,30px);font-weight:800;letter-spacing:.04em;margin:0 0 12px}
+.closure-label span{color:#9d2525}
+.closure-card p{margin:8px 0;font-size:15px}
+.closure-date{font-family:var(--serif);font-size:clamp(21px,3vw,30px);font-weight:800;margin:14px 0 4px!important}
+.closure-date strong{color:#9d2525}
+.closure-note{font-weight:700}
+@media(max-width:520px){.closure-banner{padding:20px 14px}.closure-card{padding:18px 14px}.closure-card p{font-size:14px}}
 </style>
 </head>
 <body>
 <header class="topbar"><nav aria-label="主要導覽" class="nav"><a class="brand" href="#home"><span class="brand-mark">山</span><span>恆雲山茶坊<small>HENG YUN SHAN · VIEW RESTAURANT</small></span></a><div class="navlinks" id="navlinks"><a href="#about">環境介紹</a><a href="#menu">MENU 菜單</a><a href="#pets">寵物友善</a><a href="#visit">營業資訊</a><a href="tel:076331117">聯絡我們</a></div><a class="nav-cta" href="https://www.google.com/maps/search/?api=1&amp;query=高雄市阿蓮區崗山里菩提二路889號" rel="noopener" target="_blank">前往餐廳 ↗</a><button aria-expanded="false" aria-label="開啟導覽選單" class="menu-toggle" id="menuToggle">☰</button></nav></header>
+
+<section class="closure-banner" aria-labelledby="closure-title">
+  <div class="closure-card">
+    <h2 class="closure-label" id="closure-title">恆雲山茶坊｜<span>暫時歇業公告</span></h2>
+    <p>親愛的舊雨新知，大家好：</p>
+    <p>因天尊府佬師廟真武大帝即將進行建廟前置作業，後續工程規劃及施工動線將使用到恆雲山茶坊部分內部區域，為配合相關作業，營業時間將至以下日期。</p>
+    <p class="closure-date">營業至 <strong>2026 年 11 月 15 日（星期日）</strong></p>
+    <p class="closure-date"><strong>11 月 16 日起開始暫停營業</strong></p>
+    <p class="closure-note">重新開業時間將於官方網站及社群另行公告。</p>
+    <p>感謝大家一路以來的支持與陪伴，期待再相會。</p>
+  </div>
+</section>
 <main>
 <section class="hero" id="home"><div class="hero-inner"><div class="eyebrow">A LITTLE ESCAPE IN THE MOUNTAINS</div><h1>在山裡，<br/><span>好好吃飯看風景。</span></h1><p>把日常留在山下，來大崗山吹吹風。<br/>從午後夕陽到夜幕星光，讓美景、熱食與相聚時光，陪你慢慢放鬆。</p><div class="hero-actions"><a class="btn" href="#menu">探索菜單　↓</a><a class="btn btn-light" href="#about">看看餐廳環境</a></div></div><div class="hero-note">大崗山景觀餐廳・高雄阿蓮</div></section>
 <div class="intro-strip"><div class="strip-inner"><div class="strip-item"><strong>01</strong><span>夕陽與遼闊山海景色</span></div><div class="strip-item"><strong>02</strong><span>火鍋簡餐・茶飲點心</span></div><div class="strip-item"><strong>03</strong><span>朋友聚會・親子寵物友善</span></div></div></div>
